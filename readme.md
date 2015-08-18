@@ -1,7 +1,8 @@
-导入laravel.sql
 
-composer install 安装依赖包
-
-cope .env.example 改为 .env (修改mysql配置)
-
-配置入口 public/index.php
+#安装依赖包
+`composer install` 
+#修改mysql配置###
+`cp .env.example .env`
+#导入laravel.sql
+#配置域名
+跟目录指向public
